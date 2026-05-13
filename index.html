@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Anshul Thakur — SPEFL-SC Certified Personal Trainer at Pro Ultimate Gym, Panchkula. Expert in fat loss, muscle building & strength training. Start your transformation today." />
+  <title>Anshul Thakur | Certified Personal Trainer — Panchkula</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // ⚠️ Replace with your EmailJS Public Key after signup at emailjs.com
+    (function () { emailjs.init({ publicKey: "YOUR_PUBLIC_KEY" }); })();
+  </script>
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">ANSHUL<span>FIT</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#transformations" class="nav-link">Transformations</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://wa.me/918580934783" target="_blank" class="nav-cta">Start Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero.jpeg" alt="Trainer in gym" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content hero-split">
+
+      <!-- Left: Text -->
+      <div class="hero-left">
+        <p class="hero-tag fade-in-up">Anshul Thakur &mdash; SPEFL-SC Certified Personal Trainer &bull; Panchkula,
+          Haryana</p>
+        <h1 class="hero-title fade-in-up delay-1">
+          TRANSFORM<br />YOUR BODY
+        </h1>
+        <h2 class="hero-subtitle fade-in-up delay-2">BUILD YOUR CONFIDENCE</h2>
+        <div class="hero-btns fade-in-up delay-3">
+          <a href="https://wa.me/918580934783" target="_blank" class="btn btn-primary" id="hero-cta-primary">
+            <i class="fab fa-whatsapp"></i> Start Your Transformation
+          </a>
+          <a href="#transformations" class="btn btn-outline" id="hero-cta-outline">View Results</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+      <p>Scroll Down</p>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Trainer Image Carousel -->
+        <div class="about-img-wrap reveal">
+          <div class="about-img-frame">
+
+            <!-- Carousel -->
+            <div class="about-carousel" id="about-carousel">
+              <img src="images/trainer1.jpeg" alt="Anshul Thakur" class="about-carousel-img active" />
+              <img src="images/trainer2.jpeg" alt="Anshul Thakur" class="about-carousel-img" />
+              <img src="images/trainer3.jpeg" alt="Anshul Thakur" class="about-carousel-img" />
+              <img src="images/trainer4.jpeg" alt="Anshul Thakur" class="about-carousel-img" />
+            </div>
+
+            <!-- Carousel Dots -->
+            <div class="about-carousel-dots" id="about-carousel-dots">
+              <button class="acdot active" data-idx="0"></button>
+              <button class="acdot" data-idx="1"></button>
+              <button class="acdot" data-idx="2"></button>
+              <button class="acdot" data-idx="3"></button>
+            </div>
+
+            <div class="about-img-badge">
+              <i class="fas fa-medal"></i>
+              <span>SPEFL-SC Certified</span>
+            </div>
+            <div class="about-img-badge2">
+              <i class="fas fa-trophy"></i>
+              <span>3&times; Trainer of the Month</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trainer Info -->
+        <div class="about-content reveal delay-1">
+          <p class="section-tag">About The Trainer</p>
+          <h2 class="section-title">ANSHUL <span class="accent">THAKUR</span></h2>
+          <div class="about-cert-row">
+            <span class="cert-badge"><i class="fas fa-certificate"></i> SPEFL-SC Certified &bull; Skill India /
+              NSDC</span>
+            <span class="cert-badge"><i class="fas fa-location-dot"></i> Pro Ultimate Gym, Sector 14, Panchkula,
+              Haryana</span>
+          </div>
+          <p class="about-bio">
+            I'm <strong>Anshul Thakur</strong>, a government-recognised <strong>SPEFL-SC Certified Personal
+              Trainer</strong> under Skill India &amp; NSDC, trained at Pro Ultimate Academy. Based at <strong>Pro
+              Ultimate Gym, Sector 14, Panchkula</strong>, I create structured workout plans tailored to each client,
+            push them to their limits, and stay with them every step of the way.
+          </p>
+          <p class="about-bio">
+            Awarded <strong>Trainer of the Month — 3 times</strong>, my results speak louder than words. Whether your
+            goal is aggressive fat loss, lean muscle gain, or raw strength — I build programs around your body, your
+            lifestyle, and your ambition.
+          </p>
+          <ul class="about-specialties">
+            <li><i class="fas fa-fire-flame-curved"></i> Fat Loss &amp; Body Recomposition</li>
+            <li><i class="fas fa-dumbbell"></i> Muscle Building &amp; Hypertrophy</li>
+            <li><i class="fas fa-bolt"></i> Strength &amp; Athletic Performance</li>
+            <li><i class="fas fa-apple-whole"></i> Precision Nutrition &amp; Diet Planning</li>
+          </ul>
+
+          <!-- Stats -->
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-number" data-target="200">0</span><span class="stat-plus">+</span>
+              <p>Clients Coached</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="1000">0</span><span class="stat-plus">+</span>
+              <p>Kg Weight Lost</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/918580934783" target="_blank" class="btn btn-primary">
+            <i class="fab fa-whatsapp"></i> Train With Me
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRANSFORMATIONS SECTION ===================== -->
+  <section class="transformations section" id="transformations">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Proof Of Work</p>
+        <h2 class="section-title">CLIENT <span class="accent">TRANSFORMATIONS</span></h2>
+        <p class="section-desc">Real people. Real results. Zero excuses.</p>
+      </div>
+
+      <div class="transforms-grid">
+
+        <!-- Card 1 -->
+        <div class="transform-card reveal">
+          <div class="transform-single">
+            <img src="images/transform1.jpeg" alt="Client transformation" class="transform-full-img" />
+            <span class="label-tag label-before">BEFORE</span>
+            <span class="label-tag label-after after-tag">AFTER</span>
+          </div>
+          <div class="transform-info">
+            <div class="transform-stats">
+              <span><i class="fas fa-clock"></i> 3 Months</span>
+              <span><i class="fas fa-weight-scale"></i> -18 Kg</span>
+            </div>
+            <p class="transform-quote">"I never thought I could look like this. Coach changed everything."</p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="transform-card reveal delay-1">
+          <div class="transform-single">
+            <img src="images/transform2.jpeg" alt="Client transformation" class="transform-full-img" />
+            <span class="label-tag label-before">BEFORE</span>
+            <span class="label-tag label-after after-tag">AFTER</span>
+          </div>
+          <div class="transform-info">
+            <div class="transform-stats">
+              <span><i class="fas fa-clock"></i> 4 Months</span>
+              <span><i class="fas fa-weight-scale"></i> -22 Kg</span>
+            </div>
+            <p class="transform-quote">"Best decision of my life. The results are beyond what I imagined."</p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="transform-card reveal delay-2">
+          <div class="transform-single">
+            <img src="images/transform3.jpeg" alt="Client transformation" class="transform-full-img" />
+            <span class="label-tag label-before">BEFORE</span>
+            <span class="label-tag label-after after-tag">AFTER</span>
+          </div>
+          <div class="transform-info">
+            <div class="transform-stats">
+              <span><i class="fas fa-clock"></i> 5 Months</span>
+              <span><i class="fas fa-dumbbell"></i> +8 Kg Muscle</span>
+            </div>
+            <p class="transform-quote">"From skinny to shredded. My confidence is through the roof now."</p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="transform-card reveal delay-3">
+          <div class="transform-single">
+            <img src="images/transform4.jpeg" alt="Client transformation" class="transform-full-img" />
+            <span class="label-tag label-before">BEFORE</span>
+            <span class="label-tag label-after after-tag">AFTER</span>
+          </div>
+          <div class="transform-info">
+            <div class="transform-stats">
+              <span><i class="fas fa-clock"></i> 6 Months</span>
+              <span><i class="fas fa-weight-scale"></i> -30 Kg</span>
+            </div>
+            <p class="transform-quote">"The program was brutal but worth every drop of sweat."</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES SECTION ===================== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">What I Offer</p>
+        <h2 class="section-title">MY <span class="accent">SERVICES</span></h2>
+        <p class="section-desc">Customized programs designed around your goals, your schedule, and your body.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Online Coaching</h3>
+          <p>Fully customized training &amp; nutrition plans delivered digitally with weekly check-ins and 24/7 support.
+          </p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal delay-1">
+          <div class="service-icon"><i class="fas fa-person-running"></i></div>
+          <h3>Personal Training</h3>
+          <p>One-on-one sessions in a premium gym environment. Maximum intensity, zero distractions, pure results.</p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-icon"><i class="fas fa-utensils"></i></div>
+          <h3>Diet Plans</h3>
+          <p>Precision nutrition plans built around your lifestyle — no bland food, no crash diets, sustainable results.
+          </p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-fire"></i></div>
+          <h3>Fat Loss Program</h3>
+          <p>Science-backed fat burning protocol combining HIIT, metabolic conditioning and strategic deficit eating.
+          </p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal delay-1">
+          <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+          <h3>Muscle Building</h3>
+          <p>Progressive overload hypertrophy programming that maximizes muscle gain while minimizing fat gain.</p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Strength Training</h3>
+          <p>Powerlifting &amp; strength focused programming to dominate the big lifts and build raw, functional power.
+          </p>
+          <a href="https://wa.me/918580934783" target="_blank" class="service-link">Get Started <i
+              class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS SECTION ===================== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">What Clients Say</p>
+        <h2 class="section-title">SUCCESS <span class="accent">STORIES</span></h2>
+      </div>
+
+      <div class="testimonial-slider-wrap reveal">
+        <div class="testimonial-slider" id="testimonial-slider">
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"In just 3 months I lost 18 kgs and completely transformed my body. The diet
+              plan was practical and the workouts were intense but manageable. Best investment I've ever made."</p>
+            <div class="testimonial-author">
+              <div>
+                <strong>Rahul Sharma</strong>
+                <span>Fat Loss Client — Delhi</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"I've tried so many coaches before. Nobody came close to these results. The
+              online coaching program is incredibly detailed and the support is unmatched."</p>
+            <div class="testimonial-author">
+              <div>
+                <strong>Arjun Mehta</strong>
+                <span>Muscle Building Client — Mumbai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"The strength program took my deadlift from 80kg to 160kg in 6 months. The
+              programming is elite level. Coach knows exactly what he's doing."</p>
+            <div class="testimonial-author">
+              <div>
+                <strong>Vikram Patel</strong>
+                <span>Strength Training Client — Pune</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Lost 22 kgs in 4 months following the fat loss program. The diet was not as
+              restrictive as I thought and the workouts were challenging but fun."</p>
+            <div class="testimonial-author">
+              <div>
+                <strong>Priya Kapoor</strong>
+                <span>Fat Loss Client — Bangalore</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Joined online coaching from abroad and it worked perfectly. Weekly check-ins
+              kept me accountable and the results were incredible. Highly recommend!"</p>
+            <div class="testimonial-author">
+              <div>
+                <strong>Karan Desai</strong>
+                <span>Online Coaching Client — Dubai</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="slider-btn" id="slider-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-dots" id="slider-dots"></div>
+          <button class="slider-btn" id="slider-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INSTAGRAM / SOCIAL PROOF ===================== -->
+  <section class="instagram section" id="instagram">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Follow The Journey</p>
+        <h2 class="section-title">FOLLOW ON <span class="accent">INSTAGRAM</span></h2>
+      </div>
+
+      <div class="insta-grid reveal">
+
+        <a href="https://www.instagram.com/p/C7W6IqfPYr9/" target="_blank" class="insta-item">
+          <img src="images/insta1.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+        <a href="https://www.instagram.com/p/C7W6hXKPzGz/" target="_blank" class="insta-item">
+          <img src="images/insta2.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+        <a href="https://www.instagram.com/p/DW4KkKXjAvE/" target="_blank" class="insta-item">
+          <img src="images/insta3.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+        <a href="https://www.instagram.com/p/C3eVrRMPXOg/" target="_blank" class="insta-item">
+          <img src="images/insta4.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+        <a href="https://www.instagram.com/p/C_YnYfOS8t-/" target="_blank" class="insta-item">
+          <img src="images/insta5.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+        <a href="https://www.instagram.com/p/Cx5q8OFPbqy/" target="_blank" class="insta-item">
+          <img src="images/insta6.jpg" alt="Instagram post" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </a>
+
+      </div>
+
+      <div class="insta-cta reveal">
+        <p class="insta-handle"><i class="fab fa-instagram"></i> @anshul.fitcoach</p>
+        <a href="https://www.instagram.com/anshul.fitcoach" target="_blank" class="btn btn-primary">
+          Follow on Instagram
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="cta-banner">
+    <div class="cta-banner-bg"></div>
+    <div class="container">
+      <div class="cta-banner-content reveal">
+        <h2>YOUR TRANSFORMATION<br /><span class="accent">STARTS TODAY</span></h2>
+        <p>Stop waiting. Start training. Your future self will thank you.</p>
+        <a href="https://wa.me/918580934783" target="_blank" class="btn btn-primary btn-xl">
+          <i class="fab fa-whatsapp"></i> Message Me on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-tag">Get In Touch</p>
+        <h2 class="section-title">CONTACT <span class="accent">ME</span></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <h3>Let's Build Your Dream Physique</h3>
+          <p>Fill out the form or reach out directly. I respond within 24 hours.</p>
+
+          <div class="contact-methods">
+            <a href="https://wa.me/918580934783" target="_blank" class="contact-method whatsapp-method">
+              <div class="method-icon"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+91 8580934783</span>
+              </div>
+            </a>
+            <a href="mailto:anshulthakur72.st@gmail.com" class="contact-method">
+              <div class="method-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <span>anshulthakur72.st@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/anshul.fitcoach?igsh=MWY5dGFiYmt3a2M3Ng%3D%3D&utm_source=qr"
+              target="_blank" class="contact-method">
+              <div class="method-icon"><i class="fab fa-instagram"></i></div>
+              <div>
+                <strong>Instagram</strong>
+                <span>@anshul.fitcoach</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal delay-1">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name">Full Name</label>
+                <input type="text" id="form-name" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="form-phone">Phone Number</label>
+                <input type="tel" id="form-phone" name="phone" placeholder="+91 00000 00000" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="form-email">Email Address</label>
+              <input type="email" id="form-email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-goal">Your Fitness Goal</label>
+              <select id="form-goal" name="goal">
+                <option value="" disabled selected>Select your goal</option>
+                <option value="fat-loss">Fat Loss</option>
+                <option value="muscle">Muscle Building</option>
+                <option value="strength">Strength Training</option>
+                <option value="online">Online Coaching</option>
+                <option value="personal">Personal Training</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="form-message">Message</label>
+              <textarea id="form-message" name="message" rows="4"
+                placeholder="Tell me about your current fitness level and goals..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="form-success">
+              <i class="fas fa-circle-check"></i>
+              <strong>Message Sent!</strong>
+              <p>Anshul will get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">ANSHUL<span>FIT</span></a>
+          <p>Anshul Thakur — SPEFL-SC Certified Personal Trainer at Pro Ultimate Gym, Sector 14, Panchkula, Haryana
+            134112. Transforming bodies &amp; mindsets since 2019.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/anshul.fitcoach?igsh=MWY5dGFiYmt3a2M3Ng%3D%3D&utm_source=qr"
+              target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/918580934783" target="_blank" aria-label="WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/share/18uTeDVfLV/?mibextid=wwXIfr" target="_blank"
+              aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#transformations">Transformations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Online Coaching</a></li>
+            <li><a href="#services">Personal Training</a></li>
+            <li><a href="#services">Diet Plans</a></li>
+            <li><a href="#services">Fat Loss Program</a></li>
+            <li><a href="#services">Muscle Building</a></li>
+            <li><a href="#services">Strength Training</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fab fa-whatsapp"></i> +91 8580934783</p>
+          <p><i class="fas fa-envelope"></i> anshulthakur72.st@gmail.com</p>
+          <p><i class="fab fa-instagram"></i> @anshul.fitcoach</p>
+          <a href="https://wa.me/918580934783" target="_blank" class="btn btn-primary footer-wa-btn">
+            <i class="fab fa-whatsapp"></i> Chat Now
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Anshul Thakur &mdash; SPEFL-SC Certified Personal Trainer. All Rights Reserved. Designed with
+          <span class="accent">passion</span>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING WHATSAPP BUTTON ===================== -->
+  <a href="https://wa.me/918580934783" target="_blank" class="float-wa" id="float-wa" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-wa-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
