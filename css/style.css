@@ -1027,6 +1027,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .stats-row { gap: 20px; }
   .insta-grid { grid-template-columns: repeat(2, 1fr); }
+  .insta-item:nth-child(4) { display: block; }
   .insta-item:nth-child(5),
   .insta-item:nth-child(6) { display: none; }
 }
